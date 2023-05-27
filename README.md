@@ -1,49 +1,47 @@
-# icmp_reverse_shell
+# Reverse-Shell
 
 # ICMP REVERSE SHELL / BACKDOOR
 
-Hi, hope you are doing well, this project is about reverse shell using icmp, here is how it can be used
+Olá, espero que você esteja bem, este projeto é sobre shell reverso usando icmp, aqui está como ele pode ser usado:
 
-# Usage
+# Uso
 
-FIrstly, compile it in your machine
+Primeiramente, compile-o em sua máquina
 
 
-Attacker:
+Atacante:
 ```bash
-gcc server.c -o server -pthread
+gcc servidor.c -o servidor -pthread
 ```
 
-Victim:
+Vítima:
 ```bash
-gcc client.c -o client -pthread
+gcc cliente.c -o cliente -pthread
 ```
 
-#### To Run the Server:
+#### Para executar o servidor:
 
 ```bash
-./server <target-ip>
-./server 192.168.1.9
+./servidor <ip>
 ```
 
-#### Run the client on victim machine
+#### Execute o cliente na máquina vítima
 
 ```bash
-./client
+./cliente
 ```
 
-You can use nohup to put the process in background
+Você pode usar o nohup para colocar o processo em segundo plano
 
 ```bash
 nohup ./client &
 ```
 
-### Note I'm not responsible for any of your actions,
-Be happy.
+### Reverse Shell é apenas para fins de estudo
 
 
 
-## References
+## Referências
 
 [ICMPSH](https://github.com/bdamele/icmpsh)
 
