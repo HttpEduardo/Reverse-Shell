@@ -1,8 +1,6 @@
-# Reverse-Shell
+# REVERSE SHELL
 
-# ICMP REVERSE SHELL / BACKDOOR
-
-Olá, espero que você esteja bem, este projeto é sobre shell reverso usando icmp, aqui está como ele pode ser usado:
+Este projeto é sobre shell reverso usando icmp, aqui está como ele pode ser usado:
 
 # Uso
 
